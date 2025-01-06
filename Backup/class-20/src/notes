@@ -1,0 +1,30 @@
+/*
+USAGE:Get all the products      
+URL:http://127.0.0.1:5000/api/products
+Method:GET
+Fields:no-fields
+*/
+/*
+USAGE:Get a single products      
+URL:http://127.0.0.1:5000/api/products:id
+Method:GET
+Fields:no-fields
+*/
+/*
+USAGE:create a products      
+URL:http://127.0.0.1:5000/api/products/
+Method:POST
+Fields:name , image , price , qty , info 
+*/
+/*
+USAGE:create a products      
+URL:http://127.0.0.1:5000/api/products/id
+Method:PUT
+Fields:name , img , price , qty , info
+*/
+/*
+USAGE:deletDELETE products      
+URL:http://127.0.0.1:5000/api/products/id
+Method:DELETE
+Fields:no-fields
+*/

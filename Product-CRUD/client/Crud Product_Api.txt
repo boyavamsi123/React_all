@@ -1,0 +1,35 @@
+/*
+
+GET all Products
+
+   URL : http://127.0.0.1:5000/api/products
+   Method : GET
+   Fields : no-fields
+*/
+/*
+GET a single Product
+
+   URL : http://127.0.0.1:5000/api/products/:id
+   Method : GET
+   Fields : productId
+*/
+/*
+Create a Product
+
+   URL : http://127.0.0.1:5000/api/products
+   Method : POST
+   Fields : name , image , price , qty , info
+*/
+/*
+Update a Product
+
+	URL : http://127.0.0.1:5000/api/products/:id
+	Method : PUT
+	Fields : name , image , price , qty , info
+*/
+/*
+Delete a Product
+	URL : http://127.0.0.1:5000/api/products/:id
+	Method : DELETE
+	Fields : no-fields
+*/
