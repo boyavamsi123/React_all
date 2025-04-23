@@ -1,13 +1,17 @@
-import React from "react"
-import navbar from "./navbar"
-function App(){
+import Header from "./Components/Header"
+import Services from "./Components/Services"
+import Footer from "./Components/Footer"
+import Movie from "./Movies/Movie"
+import React from 'react'
 
-    return <div>
-        <h1>GM</h1>
-        <h1>GA</h1>
-        <h1>GE</h1>
-        <h1>GN</h1>
+const App = () => {
+  return (
+    <div>
+      <h2>App Component</h2>
+      <hr />
+      <Movie />
     </div>
+  )
 }
 
 export default App
